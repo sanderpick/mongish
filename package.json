@@ -15,16 +15,18 @@
     "url": "http://github.com/sanderpick/mongish.git"
   },
   "main": "lib/mongish",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://www.opensource.org/licenses/mit-license.php"
-    }
-  ],
+  "license": "MIT",
   "dependencies": {
-    "mongodb": "~2.1.11",
-    "step": "0.0.5",
-    "underscore": "^1.4.4",
-    "underscore.string": "~2.3.1"
+    "mongodb": "^2.2.24",
+    "step": "1.0.0",
+    "underscore": "^1.8.3",
+    "underscore.string": "~3.3.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "uuid": "^3.0.1"
+  },
+  "scripts": {
+    "test": "mocha"
   }
 }
